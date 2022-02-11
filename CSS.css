@@ -1,18 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
 .graella {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
     grid-gap: 10px;
+    height: 74vh;
 }
 .section {
     display: grid;
     justify-content: center;
+    height: 24vh;
 }
 .col {
     border: 1px solid black;
     padding: 10px;
     padding-top: 50px;
 }
+
 @media (max-width: 600px) {
     .graella{grid-template-columns: repeat(3,1fr);}
 }
